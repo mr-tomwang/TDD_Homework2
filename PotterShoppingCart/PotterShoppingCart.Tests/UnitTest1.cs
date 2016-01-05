@@ -20,7 +20,7 @@ namespace PotterShoppingCart.Tests
         {
             // arrange
             ShoppingCart target = new ShoppingCart();
-            target.AddBook(new Book("PoterVolume1"), 1);
+            target.AddBook(new Book("PoterVolume1"));
 
             int expectedPrice = 100;
 
